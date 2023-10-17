@@ -1,11 +1,12 @@
-import { useState } from "react";
-
+import { Routes, Route, Navigate } from "react-router-dom";
+import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className="bg-red-500 flex justify-center items-center text-3xl ">
-        Netflix Clone
-      </div>
+      <Routes>
+        <Route path="/" element={<Navigate to="/tr/" />}></Route>
+        <Route path="/tr/" element={<Home></Home>}></Route>
+      </Routes>
     </>
   );
 }
