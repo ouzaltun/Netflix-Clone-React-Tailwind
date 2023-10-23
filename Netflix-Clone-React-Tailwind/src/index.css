@@ -13,5 +13,8 @@
     color: #fff;
     height: 100vh;
     max-width: 100%;
+    letter-spacing: -0.6px;
+    word-spacing: -4.8px;
+    font-size: 102%;
   }
 }

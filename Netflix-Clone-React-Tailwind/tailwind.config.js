@@ -6,6 +6,9 @@ export default {
       colors: {
         netflix: "#e50914",
       },
+      backgroundImage: {
+        "netflix-background": "url('/netflixbackground.jpg')",
+      },
     },
   },
   plugins: [],
