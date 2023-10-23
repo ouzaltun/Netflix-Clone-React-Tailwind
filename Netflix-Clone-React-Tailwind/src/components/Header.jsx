@@ -8,7 +8,7 @@ const people = [{ name: "Türkçe" }, { name: "English" }];
 function Header() {
   const [selected, setSelected] = useState(people[0]);
   return (
-    <div className="max-w-full h-[100vh] bg-netflix-background  relative mx-auto z-10 ">
+    <div className="max-w-full h-[100vh] bg-netflix-background relative mx-auto z-10 ">
       <div>
         <div className="flex container justify-between max-w-[83%] mx-auto px-12 py-6  items-center">
           <div className="w-[148px] cursor-pointer">
@@ -54,10 +54,10 @@ function Header() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="block truncate leading-6 mb-[2px]">
+                      <span className="block truncate text-[15px] leading-6 mb-[2px]">
                         {selected.name}
                       </span>
-                      <span className="flex justify-center items-center pointer-events-none pt-[2px] ml-2">
+                      <span className="flex justify-center items-center pointer-events-none pt-[2px] ml-1">
                         <svg
                           fill="#000"
                           width="16"
@@ -138,7 +138,9 @@ function Header() {
         </div>
       </div>
       <div className="top-1/2 left-1/2 text-center z-20  -translate-x-0.5 translate-y-3/4 items-center flex flex-col mx-[276.6px] my-[55.6px] ">
-        <Title>Âlâsı var!</Title>
+        <div className="mb-2">
+          <Title>Âlâsı var!</Title>
+        </div>
         <Desc>En iyi dizi, film, belgesel ve çok daha fazlası burada.</Desc>
         <p className="mt-6 leading-6 text-xl font-normal">
           İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
