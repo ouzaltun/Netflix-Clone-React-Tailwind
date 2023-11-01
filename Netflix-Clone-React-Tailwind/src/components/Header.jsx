@@ -3,6 +3,7 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 import Title from "./Title";
 import Desc from "./Desc";
+import Email from "./Email";
 
 const people = [{ name: "Türkçe" }, { name: "English" }];
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
   return (
     <div className="max-w-full h-[100vh] bg-netflix-background relative mx-auto z-10 ">
       <div>
-        <div className="flex container justify-between max-w-[83%] mx-auto px-12 py-6  items-center">
+        <div className="flex container justify-between max-w-[84%] mx-auto px-12 py-6  items-center">
           <div className="w-[148px] cursor-pointer">
             <svg
               fill="#e50914"
@@ -137,7 +138,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="top-1/2 left-1/2 text-center z-20  -translate-x-0.5 translate-y-3/4 items-center flex flex-col mx-[276.6px] my-[55.6px] ">
+      <div className="top-1/2 left-1/2 text-center z-20  -translate-x-0.5 translate-y-3/4 items-center flex flex-col mx-[376.6px] my-[55.6px] ">
         <div className="mb-2">
           <Title>Âlâsı var!</Title>
         </div>
@@ -146,6 +147,7 @@ function Header() {
           İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
           tek yapmanız gereken e-posta adresinizi girmek.
         </p>
+        <Email></Email>
       </div>
       <div className="flex absolute -z-20 bg-gradient-to-t from-black via-transparent to-black top-0 right-0 bottom-0 left-0 h-full w-full "></div>
       <div className="flex absolute -z-20 bg-black/40 to-black top-0 right-0 bottom-0 left-0 h-full w-full  "></div>

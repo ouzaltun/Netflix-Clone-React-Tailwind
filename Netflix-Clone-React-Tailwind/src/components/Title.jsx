@@ -3,7 +3,9 @@ import React from "react";
 function Title({ children }) {
   return (
     <div>
-      <div className="font-bold text-5xl [word-spacing:-20px] ">{children}</div>
+      <div className="text-5xl font-black [word-spacing:-20px] ">
+        {children}
+      </div>
     </div>
   );
 }
