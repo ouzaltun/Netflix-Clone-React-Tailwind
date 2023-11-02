@@ -46,7 +46,7 @@ function Sss() {
         </div>
         <h3 className="w-[75vw] text-[20px] mt-[40px] px-8 font-normal leading-6 text-center">
           İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
-          tek yapmanız gereken e-posta adresinizi girmek.
+          tek yapmanız gereken <br></br> e-posta adresinizi girmek.
         </h3>
         <Email></Email>
       </div>

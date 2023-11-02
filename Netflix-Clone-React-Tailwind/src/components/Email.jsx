@@ -21,12 +21,12 @@ function Email() {
         </div>
 
         <div className="ml-2 flex items-center justify-center ">
-          <button className="flex border py-3 px-6 border-black bg-netflix text-white text-lg md:text-2xl cursor-pointer  tracking-[-0.4px] rounded font-bold transition-colors hover:bg-[#c11119]">
-            <div className="max-h-[56px] ">
-              <label for="email">Başlayın</label>
+          <button className="flex border py-2 px-6 border-black bg-netflix text-white text-lg md:text-2xl cursor-pointer  tracking-[-0.4px] rounded font-bold transition-colors hover:bg-[#c11119]">
+            <div className=" flex max-h-[56px] pb-1">
+              <span>Başlayın</span>
 
-              <div className="inline-block ml-2 min-h-6 min-w-6">
-                <IoIosArrowForward></IoIosArrowForward>
+              <div className=" h-[32px] w-[24px]">
+                <IoIosArrowForward className="inline-block ml-2 h-[28px] w-full pb-1"></IoIosArrowForward>
               </div>
             </div>
           </button>
