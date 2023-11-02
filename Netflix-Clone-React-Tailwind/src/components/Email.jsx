@@ -4,12 +4,12 @@ import { IoIosArrowForward } from "react-icons/Io";
 function Email() {
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-center text-left mt-4">
+      <div className="flex flex-wrap items-center justify-center text-left mt-4 gap-y-4">
         <div className="relative flex items-center justify-center">
           <input
             type="text"
             id="floating_filled"
-            className="block min-h-[56px] min-w-[403px] text-white leading-6 bg-[rgba(0,0,0,0.29)] border pl-6 pt-4 pb-2 border-gray-400 rounded peer"
+            className="block min-h-[56px] min-w-[251px] md:min-w-[403px] text-white leading-6 bg-[rgba(0,0,0,0.29)] border pl-6 pt-4 pb-2 border-gray-400 rounded peer"
             placeholder=" "
           />
           <label
@@ -20,12 +20,12 @@ function Email() {
           </label>
         </div>
 
-        <div className="ml-2 flex items-center ">
-          <button className="flex border mt-4 md:mt-0 py-3 px-6 border-black bg-netflix text-white text-2xl cursor-pointer  tracking-[-0.4px] rounded font-bold transition-colors hover:bg-[#c11119]">
+        <div className="ml-2 flex items-center justify-center ">
+          <button className="flex border py-3 px-6 border-black bg-netflix text-white text-lg md:text-2xl cursor-pointer  tracking-[-0.4px] rounded font-bold transition-colors hover:bg-[#c11119]">
             <div className="max-h-[56px] ">
               <label for="email">Başlayın</label>
 
-              <div className="inline-block ml-2 h-6 w-6">
+              <div className="inline-block ml-2 min-h-6 min-w-6">
                 <IoIosArrowForward></IoIosArrowForward>
               </div>
             </div>

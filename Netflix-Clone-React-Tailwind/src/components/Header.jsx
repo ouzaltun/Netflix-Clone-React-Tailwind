@@ -9,14 +9,14 @@ const people = [{ name: "Türkçe" }, { name: "English" }];
 function Header() {
   const [selected, setSelected] = useState(people[0]);
   return (
-    <div className="max-w-full h-[100vh] bg-netflix-background relative mx-auto z-10 ">
+    <div className="h-[540px] sm:[875px]  md:h-[100vh] text-center bg-netflix-background relative mx-auto z-10 ">
       <div>
-        <div className="flex container justify-between max-w-[84%] mx-auto px-12 py-6  items-center">
-          <div className="w-[148px] cursor-pointer">
+        <div className="flex container justify-between max-w-[90%] md:max-w-[84%] mx-auto md:px-12 py-6  items-center">
+          <div className="md:w-[148px] w-[84px] cursor-pointer">
             <svg
               fill="#e50914"
               height={40}
-              width={148}
+              width={80}
               viewBox="0 0 111 30"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +55,7 @@ function Header() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="block truncate text-[15px] leading-6 mb-[2px]">
+                      <span className="md:block truncate text-[15px] hidden leading-6 mb-[2px]">
                         {selected.name}
                       </span>
                       <span className="flex justify-center items-center pointer-events-none pt-[2px] ml-1">
@@ -129,7 +129,7 @@ function Header() {
             </div>
             <div>
               <div
-                className="bg-netflix text-white text-[14px] ml-6 mr-3 cursor-pointer flex py-1 px-4 min-h-[32px] tracking-[-0.4px]
+                className="bg-netflix text-white text-[14px] flex-col md:flex-row md:ml-6 ml-2  md:mr-3 cursor-pointer flex py-1 px-4 min-h-[32px] tracking-[-0.4px]
              rounded font-bold transition-colors hover:bg-[#c11119]"
               >
                 Oturum Aç
@@ -138,12 +138,12 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="top-1/2 left-1/2 text-center z-20  -translate-x-0.5 translate-y-3/4 items-center flex flex-col mx-[376.6px] my-[55.6px] ">
+      <div className="top-1/2 left-1/2 text-center z-20 px-6  -translate-x-0.5   lg:translate-y-3/4 items-center flex flex-col  ">
         <div className="mb-2">
           <Title>Âlâsı var!</Title>
         </div>
         <Desc>En iyi dizi, film, belgesel ve çok daha fazlası burada.</Desc>
-        <p className="mt-6 leading-6 text-xl font-normal">
+        <p className="mt-6 leading-6 text-[18px] md:text-xl font-normal">
           İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
           tek yapmanız gereken e-posta adresinizi girmek.
         </p>
