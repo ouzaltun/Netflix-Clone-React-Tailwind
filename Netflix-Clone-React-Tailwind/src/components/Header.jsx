@@ -55,7 +55,10 @@ function Header() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="md:block truncate text-[15px] hidden leading-6 mb-[2px]">
+                      <span
+                        className="md:block truncate text-[15px] hidden
+                     leading-6 mb-[2px]"
+                      >
                         {selected.name}
                       </span>
                       <span className="flex justify-center items-center pointer-events-none pt-[2px] ml-1">
@@ -85,7 +88,7 @@ function Header() {
                       leaveTo="opacity-0"
                     >
                       <Listbox.Options
-                        className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md 
+                        className="absolute mt-1 max-h-60 w-[122px]  overflow-auto rounded-md 
                     bg-[#161616b3] py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
                       >
                         {people.map((person, personIdx) => (
@@ -129,7 +132,7 @@ function Header() {
             </div>
             <div>
               <div
-                className="bg-netflix text-white text-[14px] flex-col md:flex-row md:ml-6 ml-2  md:mr-3 cursor-pointer flex py-1 px-4 min-h-[32px] tracking-[-0.4px]
+                className="bg-netflix text-white text-[14px] md:ml-6 ml-2  md:mr-3 cursor-pointer flex py-1 px-4 min-h-[32px] tracking-[-0.4px]
              rounded font-bold transition-colors hover:bg-[#c11119]"
               >
                 Oturum Aç
