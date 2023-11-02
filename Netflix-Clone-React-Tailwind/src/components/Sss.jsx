@@ -20,8 +20,8 @@ function Sss() {
           <Title>Sıkça Sorulan Sorular</Title>
         </div>
         <div className="mt-8 ">
-          {item.map((e, index) => (
-            <Disclosure>
+          {item.map((e) => (
+            <Disclosure key={e.id}>
               {({ open }) => (
                 <>
                   <Disclosure.Button className="text-[24px] [word-spacing:-8px] w-[75vw] font-thin mb-1 mt-3 text-left p-6 flex justify-between items-center   bg-[#2D2D2D] hover:bg-[#484747] transition-colors">
