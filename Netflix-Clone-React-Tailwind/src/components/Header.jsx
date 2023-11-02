@@ -9,14 +9,12 @@ const people = [{ name: "Türkçe" }, { name: "English" }];
 function Header() {
   const [selected, setSelected] = useState(people[0]);
   return (
-    <div className="h-[540px] sm:[875px]  md:h-[100vh] text-center bg-netflix-background relative mx-auto z-10 ">
+    <div className="h-[540px] sm:[875px]  md:h-[100vh] text-center bg-netflix-background bg-center bg-cover relative mx-auto z-10 ">
       <div>
         <div className="flex container justify-between max-w-[90%] md:max-w-[84%] mx-auto md:px-12 py-6  items-center">
           <div className="md:w-[148px] w-[84px] cursor-pointer">
             <svg
               fill="#e50914"
-              height={40}
-              width={80}
               viewBox="0 0 111 30"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
