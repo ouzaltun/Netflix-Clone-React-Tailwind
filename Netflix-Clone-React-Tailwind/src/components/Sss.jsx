@@ -1,9 +1,9 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
-import { Link } from "react-router-dom";
 import Title from "./Title";
 import { AiOutlinePlus } from "react-icons/ai";
 import Desc from "./Desc";
+import Email from "./Email";
 
 function Sss() {
   return (
@@ -44,6 +44,11 @@ function Sss() {
             )}
           </Disclosure>
         </div>
+        <h3 className="w-[75vw] text-[20px] mt-[40px] px-8 font-normal leading-6 text-center">
+          İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
+          tek yapmanız gereken e-posta adresinizi girmek.
+        </h3>
+        <Email></Email>
       </div>
     </div>
   );
