@@ -14,7 +14,7 @@ function Sss() {
   }, []);
 
   return (
-    <div>
+    <div className="pt-[10px]">
       <div className="bg-black flex flex-col py-[70px] items-center ">
         <div className="text-center tracking-[-3px]">
           <Title>Sıkça Sorulan Sorular</Title>
