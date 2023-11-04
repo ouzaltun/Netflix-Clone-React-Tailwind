@@ -22,7 +22,7 @@ function Card() {
                 <div
                   key={item.id}
                   className={classNames(
-                    "bg-black mt-[10px] py-[72px] px-[34px] lg:px-[152px] items-center inline-flex flex-col  w-full text-center lg:text-left ",
+                    "bg-black mt-[10px] py-[72px] px-[24px] md:px-[34px] lg:px-[152px] items-center inline-flex flex-col  w-full text-center lg:text-left ",
                     {
                       "lg:flex-row": counter % 2 == 0,
                       "lg:flex-row-reverse": counter % 2 !== 0,

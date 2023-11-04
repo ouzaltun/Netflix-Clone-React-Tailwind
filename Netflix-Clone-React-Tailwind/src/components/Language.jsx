@@ -11,7 +11,7 @@ function Language() {
         <Listbox value={selected} onChange={setSelected}>
           <div className="relative bg-[#161616b3] border border-[#808080b3] rounded">
             <Listbox.Button className="relative flex justify-end items-center w-full  text-left width-[126.4px] h-8 gap-2 px-3 text-base font-normal">
-              <span className="pointer-events-none block  items-center ">
+              <span className="pointer-events-none block  items-center  ">
                 <svg
                   width="16"
                   height="16"

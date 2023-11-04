@@ -16,7 +16,7 @@ function Sss() {
   return (
     <div className="pt-[10px]">
       <div className="bg-black flex flex-col py-[70px] items-center ">
-        <div className="text-center tracking-[-3px]">
+        <div className="text-center md:tracking-[-3px]">
           <Title>Sıkça Sorulan Sorular</Title>
         </div>
         <div className="mt-8 ">
@@ -24,7 +24,7 @@ function Sss() {
             <Disclosure key={e.id}>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="text-[24px] [word-spacing:-8px] w-[75vw] font-thin mb-1 mt-3 text-left p-6 flex justify-between items-center   bg-[#2D2D2D] hover:bg-[#484747] transition-colors">
+                  <Disclosure.Button className="text-[24px] [word-spacing:-8px] w-[85vw] md:w-[75vw] font-thin mb-1 mt-3 text-left p-6 flex justify-between items-center   bg-[#2D2D2D] hover:bg-[#484747] transition-colors">
                     {e.question}
                     <div className="h-[36px] w-[36px]">
                       <AiOutlinePlus
@@ -40,7 +40,8 @@ function Sss() {
                   <Disclosure.Panel className="">
                     <div
                       to="/"
-                      className="w-[75vw] [word-spacing:-8px] h-full text-left bg-[#2d2d2d] p-6 pt-3 flex  items-center  font-medium text-[15px] "
+                      className="w-[85vw] md:w-[75vw] [word-spacing:-8px] h-full text-left bg-[#2d2d2d] p-6 pt-3 flex
+                      items-center  font-medium text-[15px] "
                     >
                       <Desc>{e.answer}</Desc>
                     </div>

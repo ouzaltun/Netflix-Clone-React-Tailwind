@@ -10,7 +10,7 @@ function Header() {
         className="relative z-99
       "
       >
-        <div className="flex container justify-between max-w-[90%] md:max-w-[84%] mx-auto md:px-12 py-6  items-center">
+        <div className="flex container justify-between max-w-[86%] md:max-w-[84%] mx-auto md:px-12 py-6  items-center">
           <div className="md:w-[148px] w-[84px] cursor-pointer">
             <svg
               fill="#e50914"
@@ -42,8 +42,8 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="top-1/2 left-1/2 text-center z-20 px-6  -translate-x-0.5   lg:translate-y-3/4 items-center flex flex-col  ">
-        <div className="mb-2">
+      <div className="top-1/2 pt-4 left-1/2 text-center z-20 px-6  -translate-x-0.5 xl:translate-y-1/2  2xl:translate-y-3/4 items-center flex flex-col  ">
+        <div className="md:mb-2">
           <Title>Âlâsı var!</Title>
         </div>
         <Desc>En iyi dizi, film, belgesel ve çok daha fazlası burada.</Desc>

@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div>
       <div className=" bg-black mt-[10px] text-[#ffffffb3] gap-y-4">
-        <div className="py-[72px] px-[32px] md:px-[142px]">
+        <div className="py-[32px] md:py-[72px] px-[32px] md:px-[142px]">
           <p>
             Sorularınız mı var?{" "}
             <a className="border-b-2 border-slate-400 mb-3" href="#">
@@ -27,7 +27,7 @@ function Footer() {
               </div>
             ))}
           </div>
-          <div className="w-[129px] mt-6 ">
+          <div className="md:w-[130px] w-[72px] mt-6 block ">
             <Language></Language>
           </div>
 
