@@ -9,7 +9,7 @@ function Email() {
           <input
             type="text"
             id="floating_filled"
-            className="block min-h-[48px] md:min-h-[56px] max-w-[251px] md:max-w-[403px] text-white leading-6 bg-[rgba(0,0,0,0.29)] border pl-6 pt-4 pb-2 border-gray-400 rounded peer"
+            className="block min-h-[64px] md:min-h-[56px] min-w-[251px] md:min-w-[403px] text-white leading-6 bg-[rgba(0,0,0,0.29)] border pl-6 pt-4 pb-2 border-gray-400 rounded peer"
             placeholder=" "
           />
           <label
