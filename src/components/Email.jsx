@@ -14,7 +14,7 @@ function Email() {
           />
           <label
             for="floating_filled"
-            className="absolute text-[14px] text-[#B7B7B7] pl-2 pt-0.3  tracking-wide dark:text-[#B7B7B7] duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
+            className="absolute text-[14px] text-[#B7B7B7] pl-2 pt-[1px]  tracking-wide dark:text-[#B7B7B7] duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-2.5 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4"
           >
             E-posta adresi
           </label>
