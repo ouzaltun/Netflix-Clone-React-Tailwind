@@ -25,7 +25,7 @@ function Email() {
             <div className=" flex justify-center items-center h-[48px] md:h-[56px] md:pb-1">
               <span>Başlayın</span>
 
-              <div className=" h-[31px] w-[24px]">
+              <div className=" h-[30px] w-[24px]">
                 <IoIosArrowForward className="inline-block ml-2 h-full w-full md:mb-1"></IoIosArrowForward>
               </div>
             </div>
