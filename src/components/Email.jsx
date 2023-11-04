@@ -26,7 +26,7 @@ function Email() {
               <span>Başlayın</span>
 
               <div className=" h-[30px] w-[24px]">
-                <IoIosArrowForward className="inline-block ml-2 h-full w-full md:mb-1"></IoIosArrowForward>
+                <IoIosArrowForward className="inline-block ml-2 h-full w-full md:mb-2"></IoIosArrowForward>
               </div>
             </div>
           </button>
