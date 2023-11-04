@@ -22,11 +22,11 @@ function Email() {
 
         <div className="ml-2   ">
           <button className=" border 0.5rem 1rem px-4 md:px-6 border-black bg-netflix text-white text-lg md:text-2xl cursor-pointer  tracking-[-0.4px] rounded font-bold transition-colors hover:bg-[#c11119]">
-            <div className=" flex justify-center items-center h-[48px] md:h-[56px]">
+            <div className=" flex justify-center items-center h-[48px] md:h-[56px] md:pb-1">
               <span>Başlayın</span>
 
               <div className=" h-[32px] w-[24px]">
-                <IoIosArrowForward className="inline-block ml-2 h-full w-full mb-1"></IoIosArrowForward>
+                <IoIosArrowForward className="inline-block ml-2 h-full w-full md:mb-1"></IoIosArrowForward>
               </div>
             </div>
           </button>
