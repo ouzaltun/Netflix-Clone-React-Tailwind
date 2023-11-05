@@ -30,8 +30,8 @@ function Sss() {
                       <AiOutlinePlus
                         className={
                           open
-                            ? "h-full w-full rotate-45 transform"
-                            : "h-full w-full"
+                            ? "h-8 w-8 md:h-full md:w-full rotate-45 transform"
+                            : " md:h-full md:w-full h-8 w-8 "
                         }
                       ></AiOutlinePlus>
                     </div>
