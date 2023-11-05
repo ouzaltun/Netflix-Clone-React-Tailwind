@@ -24,7 +24,7 @@ function Sss() {
             <Disclosure key={e.id}>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="text-[24px] [word-spacing:-8px] w-[85vw] md:w-[75vw] font-thin mb-1 mt-3 text-left p-6 flex justify-between items-center   bg-[#2D2D2D] hover:bg-[#484747] transition-colors">
+                  <Disclosure.Button className="text-[24px] [word-spacing:-8px] w-[85vw] md:w-[75vw] font-thin mb-[2px] mt-3 text-left p-6 flex justify-between items-center   bg-[#2D2D2D] hover:bg-[#484747] transition-colors">
                     {e.question}
                     <div className="h-[36px] w-[36px]">
                       <AiOutlinePlus
