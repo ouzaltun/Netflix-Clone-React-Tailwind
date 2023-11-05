@@ -1,7 +1,7 @@
 Front-end becerilerimi geliştirmek için Netflix Ana sayfasını yeniden kodladım. Bu Clone projesini React.js ve TailwindCss kullanarak yaptım. Bunun dışında kullandığım diğer teknolojileri de alt kısma ekledim. Son olarak Responsive düzenlemelerini yaptım ve Vercel aracılığıyla yayına aldım. İşte kendi Netflix Ana sayfa klonumun videosu! 🎬 
 
 
-I reimagined the Netflix homepage to enhance my front-end skills, using React.js and Tailwind CSS for this clone project. I also made it fully responsive and deployed it with Vercel. Check out the video of my very own Netflix homepage clone! 🎬
+I recoded the Netflix homepage to enhance my front-end skills, using React.js and Tailwind CSS for this clone project. I also made it fully responsive and deployed it with Vercel. Check out the video of my very own Netflix homepage clone! 🎬
 
 Live demosu: https://netflix-clone-react-tailwind-altunoguzhan.vercel.app/
 
