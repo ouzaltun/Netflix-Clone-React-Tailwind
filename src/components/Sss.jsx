@@ -12,7 +12,7 @@ function Sss() {
   useEffect(() => {
     setItem(SSS.SSS);
   }, []);
-
+  console.log(item);
   return (
     <div className="pt-[10px]">
       <div className="bg-black flex flex-col py-[70px] items-center ">
