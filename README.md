@@ -5,7 +5,7 @@ I reimagined the Netflix homepage to enhance my front-end skills, using React.js
 
 Live demosu: https://netflix-clone-react-tailwind-altunoguzhan.vercel.app/
 
-Github reposu: https://github.com/ouzaltun/Netflix-Clone-React-Tailwind
+Linkedin videosu: 
 
 Kullanılan Teknolojiler - Technologies Used:
 
