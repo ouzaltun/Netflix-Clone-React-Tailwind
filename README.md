@@ -5,7 +5,7 @@ I recoded the Netflix homepage to enhance my front-end skills, using React.js an
 
 Live demosu: [https://netflix-clone-react-tailwind-altunoguzhan.vercel.app/](https://altunoguzhan-netflix-clone-react-tailwind.vercel.app/tr/)
 
-Linkedin videosu: 
+Linkedin videosu: https://www.linkedin.com/posts/altunoguzhan_opentowork-frontend-react-activity-7127031802350755840-r9be?utm_source=share&utm_medium=member_desktop
 
 Kullanılan Teknolojiler - Technologies Used:
 
