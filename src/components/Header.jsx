@@ -42,7 +42,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="top-1/2 pt-4 left-1/2 text-center z-20 px-6  -translate-x-0.5 xl:translate-y-1/2  2xl:translate-y-3/4 items-center flex flex-col  ">
+      <div className="top-1/2 pt-4 left-1/2 text-center z-20 px-6  -translate-x-0.5 -translate-y-[8px] sm:translate-y-0 xl:translate-y-1/2  2xl:translate-y-3/4 items-center flex flex-col  ">
         <div className="md:mb-2">
           <Title>Âlâsı var!</Title>
         </div>
