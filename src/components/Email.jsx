@@ -9,7 +9,7 @@ function Email() {
   };
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-center text-left mt-4 gap-y-4">
+      <div className="flex flex-col md:flex-row items-center justify-center text-left mt-4 gap-y-4">
         <div className="relative flex items-center justify-center">
           <input
             ref={inputRef}
