@@ -2,9 +2,17 @@ import React from "react";
 import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/20/solid";
+import { useEffect } from "react";
+
 const people = [{ name: "Türkçe" }, { name: "English" }];
 function Language() {
   const [selected, setSelected] = useState(people[0]);
+
+  useEffect(() => {
+    const ozi = document.querySelectorAll("#musti");
+    ozi[1].className = " block truncate text-[15px] leading-6 mb-[2px]";
+  }, []);
+
   return (
     <div>
       <div className="base font-normal text-white  ">
@@ -31,6 +39,7 @@ function Language() {
                 </svg>
               </span>
               <span
+                id="musti"
                 className="md:block truncate text-[15px] hidden
                      leading-6 mb-[2px]"
               >

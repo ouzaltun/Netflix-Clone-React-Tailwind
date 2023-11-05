@@ -43,7 +43,7 @@ function Card() {
                         <img alt="" src={item.image} />
                       </div>
 
-                      <div className="  absolute z-0 overflow-hidden max-w-[60%] max-h-[100%] top-[24%] left-[20%]  w-full  h-full">
+                      <div className=" absolute z-0 overflow-hidden max-w-[60%] max-h-[100%] top-[24%] left-[20%]  w-full  h-full">
                         <video autoPlay loop alt="" src={item.image2} />
                       </div>
                     </div>

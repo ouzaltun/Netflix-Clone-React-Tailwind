@@ -27,7 +27,7 @@ function Footer() {
               </div>
             ))}
           </div>
-          <div className="md:w-[130px] w-[72px] mt-6 block ">
+          <div className="flex justify-start items-center w-[130px] mt-6 ">
             <Language></Language>
           </div>
 
